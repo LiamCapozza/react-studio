@@ -1,9 +1,41 @@
 /* Add styling for your page here */
 
+h1,
+h2 {
+  width: 100%;
+}
 .App {
+  display: flex;
+  background-color: #303030;
+  color: rgb(152, 152, 152);
+}
 
+.items {
+  margin: 10px;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .BakeryItem {
-  
+  display: flex;
+  background-color: rgb(53, 89, 72);
+  margin: 10px;
+  height: auto;
+  flex-wrap: wrap;
+  width: 165px;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 5px;
+}
+
+img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+button {
+  width: 50px;
+  margin: 10px;
+  height: 30px;
 }
